@@ -13,11 +13,10 @@ You can check out any point of the tutorial using
 To see the changes which between any two lessons use the git diff command.
     git diff step-?..step-?
 
+### step-00
+
+- Initial commit, README.md and .gitignore
+
 ### step-01
 
-- Only source JavaScript files exist at this point
-
-
-### step-02
-
-- TBD
+- package.json and node modules added
