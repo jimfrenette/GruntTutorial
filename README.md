@@ -31,4 +31,4 @@ To see the changes between any two steps, use the git diff command.
 
 ### step-04
 
-- compass and watch plugins added
+- compass and watch modules added

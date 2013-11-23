@@ -1,0 +1,93 @@
+
+/**
+ * Prevent iOS text size adjust after orientation change, without disabling user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 1 */
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+}
+
+body {
+  font: 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin:0;
+}
+
+// Display in IE6-9 and FF3
+// -------------------------
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+// Display block in IE6-9 and FF3
+// -------------------------
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+// Prevents modern browsers from displaying 'audio' without controls
+// -------------------------
+
+audio:not([controls]) {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: 0;
+}
+
+// Prevents sub and sup affecting line-height in all browsers
+// -------------------------
+
+sub,
+sup {
+    font-size: 50%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.9em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+// Img border in a's and image quality
+// -------------------------
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%; /* Part 1: Set a maxium relative to the parent */
+  width: auto\9; /* IE7-8 need help adjusting responsive images */
+  height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}

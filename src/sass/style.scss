@@ -1,0 +1,21 @@
+/* http://compass-style.org/reference/compass/css3/ */
+@import "compass/css3";
+/* http://compass-style.org/reference/compass/utilities/general/clearfix/ */
+@import "compass/utilities/general/clearfix";
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.myclass {
+	@include border-radius(4);
+}
+
+.clear {
+	clear:both;
+	@include clearfix;
+}
