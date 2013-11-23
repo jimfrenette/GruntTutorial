@@ -5,12 +5,12 @@ Examples of various Grunt tasks for Javascript, CSS, SASS and more...
 
 Each tag represents a different step in the tutorial, similar to the approach used in the AngularJS tutorial: http://docs.angularjs.org/tutorial
 
-## Commits / Tutorial Outline
+## Tutorial Outline
 
 You can check out any point of the tutorial using
     git checkout step-?
 
-To see the changes which between any two lessons use the git diff command.
+To see the changes between any two steps, use the git diff command.
     git diff step-?..step-?
 
 ### step-00
@@ -20,3 +20,15 @@ To see the changes which between any two lessons use the git diff command.
 ### step-01
 
 - package.json and node modules added
+
+### step-02
+
+- JavaScript source files added
+
+### step-03
+
+- JavaScript build file added
+
+### step-04
+
+- compass and watch plugins added
