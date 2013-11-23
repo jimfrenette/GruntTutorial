@@ -32,3 +32,7 @@ To see the changes between any two steps, use the git diff command.
 ### step-04
 
 - compass and watch modules added
+
+### step-05
+
+- Grunt task updated for Sass watch and compile
