@@ -1,7 +1,8 @@
 GruntTutorial
 =============
 
-Examples of various Grunt tasks for Javascript, CSS, SASS and more...    
+Examples of various Grunt tasks for Javascript, CSS, SASS and more...
+Detailed tutorial available at http://jimfrenette.com/2013/11/grunt-javascript-task-runner/
 
 Each tag represents a different step in the tutorial, similar to the approach used in the AngularJS tutorial: http://docs.angularjs.org/tutorial
 
