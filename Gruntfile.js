@@ -15,6 +15,16 @@ module.exports = function(grunt) {
         }
       }
     },
+    // connect web server configuration
+    connect: {
+      server: {
+        options: {
+          port: 8000,
+          hostname: 'localhost',
+          open: true
+        }
+      }
+    },
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -34,10 +44,11 @@ module.exports = function(grunt) {
 
   // Load the plugins.
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'watch']);
+  grunt.registerTask('default', ['uglify', 'connect:server', 'watch']);
 
 };
