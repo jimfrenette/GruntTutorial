@@ -37,3 +37,7 @@ To see the changes between any two steps, use the git diff command.
 ### step-05
 
 - Grunt task updated for Sass watch and compile
+
+### step-06
+
+- Grunt task updated for connect server
