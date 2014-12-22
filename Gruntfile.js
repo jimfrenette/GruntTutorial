@@ -21,7 +21,8 @@ module.exports = function(grunt) {
         options: {
           port: 8000,
           hostname: 'localhost',
-          open: true
+          open: true,
+          livereload: true
         }
       }
     },
@@ -35,6 +36,9 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+	  options: {
+		livereload: true
+	  },
       css: {
         files: '**/*.scss',
         tasks: ['compass']
