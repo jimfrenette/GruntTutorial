@@ -1,0 +1,30 @@
+/* http://compass-style.org/reference/compass/css3/ */
+/* http://compass-style.org/reference/compass/utilities/general/clearfix/ */
+/* line 6, ../../src/sass/style.scss */
+.hidden {
+  display: none;
+}
+
+/* line 10, ../../src/sass/style.scss */
+.show {
+  display: block;
+}
+
+/* line 14, ../../src/sass/style.scss */
+.myclass {
+  -moz-border-radius: 4;
+  -webkit-border-radius: 4;
+  border-radius: 4;
+}
+
+/* line 18, ../../src/sass/style.scss */
+.clear {
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 22, ../../src/sass/style.scss */
+h1 {
+  color: blue;
+}

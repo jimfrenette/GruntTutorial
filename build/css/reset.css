@@ -1,0 +1,93 @@
+/**
+ * Prevent iOS text size adjust after orientation change, without disabling user zoom.
+ */
+/* line 5, ../../src/sass/reset.scss */
+html {
+  -ms-text-size-adjust: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 1 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+}
+
+/* line 13, ../../src/sass/reset.scss */
+body {
+  font: 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 22, ../../src/sass/reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* line 38, ../../src/sass/reset.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 49, ../../src/sass/reset.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 53, ../../src/sass/reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 56, ../../src/sass/reset.scss */
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: 0;
+}
+
+/* line 65, ../../src/sass/reset.scss */
+sub,
+sup {
+  font-size: 50%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 73, ../../src/sass/reset.scss */
+sup {
+  top: -0.9em;
+}
+
+/* line 77, ../../src/sass/reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 84, ../../src/sass/reset.scss */
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
