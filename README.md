@@ -41,3 +41,7 @@ To see the changes between any two steps, use the git diff command.
 ### step-06
 
 - Grunt task updated for connect server
+
+### step-07
+
+- Grunt task updated for live reload
